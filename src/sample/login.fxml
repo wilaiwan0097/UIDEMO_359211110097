@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: #00e5ff;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="85.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/user-male-circle-blue-512.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="85.0" layoutY="211.0" prefHeight="17.0" prefWidth="150.0" text="School Management System" textAlignment="CENTER" textFill="#1b191b" />
+            <Label layoutX="32.0" layoutY="361.0" text="\@Co" />
+         </children>
+      </Pane>
+      <JFXTextField fx:id="name" focusColor="#5740a8" labelFloat="true" layoutX="374.0" layoutY="37.0" promptText="USERNAME" />
+      <JFXPasswordField fx:id="pass" labelFloat="true" layoutX="374.0" layoutY="79.0" promptText="PASSWORD" />
+      <JFXButton fx:id="login" layoutX="416.0" layoutY="152.0" text="Login" />
+      <Label layoutX="315.0" layoutY="369.0" text="DB Status" />
+      <Label fx:id="DBStatus" layoutX="374.0" layoutY="363.0" prefHeight="25.0" prefWidth="208.0" textFill="#f2290f" />
+      <Label fx:id="loginSatus" layoutX="301.0" layoutY="14.0" prefHeight="17.0" prefWidth="300.0" textFill="#e11616" />
+   </children>
+</AnchorPane>
