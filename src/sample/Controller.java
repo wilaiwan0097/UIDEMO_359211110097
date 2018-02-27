@@ -79,4 +79,7 @@ public class Controller implements Initializable {
 
     }
 
+    public void setBtnLogin(Button btnLogin) {
+        this.btnLogin = btnLogin;
+    }
 }//class
